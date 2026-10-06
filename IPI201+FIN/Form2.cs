@@ -31,5 +31,14 @@ namespace IPI201_FIN
         {
 
         }
+
+        private void Form2_Load_1(object sender, EventArgs e)
+        {
+
+
+
+
+
+        }
     }
 }

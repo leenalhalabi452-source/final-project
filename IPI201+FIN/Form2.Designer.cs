@@ -16,9 +16,9 @@
         private void InitializeComponent()
         {
             this.panelTop = new System.Windows.Forms.Panel();
-            this.lbl_employee_name = new System.Windows.Forms.Label();
-            this.lbl_hospital_name = new System.Windows.Forms.Label();
             this.lbl_subtitle = new System.Windows.Forms.Label();
+            this.lbl_hospital_name = new System.Windows.Forms.Label();
+            this.lbl_employee_name = new System.Windows.Forms.Label();
             this.lbl_icon_user = new System.Windows.Forms.Label();
             this.lbl_icon_logo = new System.Windows.Forms.Label();
             this.panelMain = new System.Windows.Forms.Panel();
@@ -47,18 +47,17 @@
             this.panelTop.Size = new System.Drawing.Size(1000, 109);
             this.panelTop.TabIndex = 0;
             // 
-            // lbl_employee_name
+            // lbl_subtitle
             // 
-            this.lbl_employee_name.AutoSize = true;
-            this.lbl_employee_name.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_employee_name.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
-            this.lbl_employee_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(215)))), ((int)(((byte)(0)))));
-            this.lbl_employee_name.Location = new System.Drawing.Point(711, 9);
-            this.lbl_employee_name.Name = "lbl_employee_name";
-            this.lbl_employee_name.Size = new System.Drawing.Size(244, 50);
-            this.lbl_employee_name.TabIndex = 1;
-            this.lbl_employee_name.Text = "اسم الموظف :";
-            this.lbl_employee_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_subtitle.AutoSize = true;
+            this.lbl_subtitle.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_subtitle.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lbl_subtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(220)))));
+            this.lbl_subtitle.Location = new System.Drawing.Point(664, 75);
+            this.lbl_subtitle.Name = "lbl_subtitle";
+            this.lbl_subtitle.Size = new System.Drawing.Size(340, 23);
+            this.lbl_subtitle.TabIndex = 3;
+            this.lbl_subtitle.Text = "إدارة الموظفين والعيادات والمناوبات والمواعيد";
             // 
             // lbl_hospital_name
             // 
@@ -72,17 +71,18 @@
             this.lbl_hospital_name.TabIndex = 2;
             this.lbl_hospital_name.Text = "مجمع العيادات الطبية";
             // 
-            // lbl_subtitle
+            // lbl_employee_name
             // 
-            this.lbl_subtitle.AutoSize = true;
-            this.lbl_subtitle.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_subtitle.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.lbl_subtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(180)))), ((int)(((byte)(220)))));
-            this.lbl_subtitle.Location = new System.Drawing.Point(664, 75);
-            this.lbl_subtitle.Name = "lbl_subtitle";
-            this.lbl_subtitle.Size = new System.Drawing.Size(340, 23);
-            this.lbl_subtitle.TabIndex = 3;
-            this.lbl_subtitle.Text = "إدارة الموظفين والعيادات والمناوبات والمواعيد";
+            this.lbl_employee_name.AutoSize = true;
+            this.lbl_employee_name.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_employee_name.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.lbl_employee_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(215)))), ((int)(((byte)(0)))));
+            this.lbl_employee_name.Location = new System.Drawing.Point(711, 9);
+            this.lbl_employee_name.Name = "lbl_employee_name";
+            this.lbl_employee_name.Size = new System.Drawing.Size(244, 50);
+            this.lbl_employee_name.TabIndex = 1;
+            this.lbl_employee_name.Text = "اسم الموظف :";
+            this.lbl_employee_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_icon_user
             // 
@@ -286,6 +286,7 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "واجهة المدير";
+            this.Load += new System.EventHandler(this.Form2_Load_1);
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             this.ResumeLayout(false);

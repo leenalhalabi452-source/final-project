@@ -24,6 +24,12 @@ namespace IPI201_FIN
 
         private void lbl_inquiry_btn_schedule_text_Click(object sender, EventArgs e)
         {
+     
+
+        }
+
+        private void pnl_inquiry_header_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

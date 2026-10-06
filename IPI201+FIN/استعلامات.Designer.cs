@@ -105,6 +105,7 @@
             this.pnl_inquiry_header.Name = "pnl_inquiry_header";
             this.pnl_inquiry_header.Size = new System.Drawing.Size(1383, 85);
             this.pnl_inquiry_header.TabIndex = 0;
+            this.pnl_inquiry_header.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_inquiry_header_Paint);
             // 
             // lbl_inquiry_logo
             // 

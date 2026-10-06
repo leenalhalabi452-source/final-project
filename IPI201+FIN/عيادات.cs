@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace IPI201_FIN
 {
-    public partial class Form6 : Form
+    public partial class عيادات : Form
     {
-        public Form6()
+        public عيادات()
         {
             InitializeComponent();
         }
@@ -45,6 +45,11 @@ namespace IPI201_FIN
         private void pnl_clinic_content_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void btn_clinic_add_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

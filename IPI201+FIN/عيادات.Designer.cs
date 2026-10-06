@@ -1,6 +1,6 @@
 ﻿namespace IPI201_FIN
 {
-    partial class Form6
+    partial class عيادات
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -319,6 +319,7 @@
             this.btn_clinic_add.Text = "👤   إضافة";
             this.btn_clinic_add.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_clinic_add.UseVisualStyleBackColor = false;
+            this.btn_clinic_add.Click += new System.EventHandler(this.btn_clinic_add_Click);
             // 
             // btn_clinic_edit
             // 
@@ -648,7 +649,7 @@
             // 
             this.timer_clinic_animation.Interval = 50;
             // 
-            // Form6
+            // عيادات
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -659,7 +660,7 @@
             this.Controls.Add(this.pnl_clinic_content);
             this.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form6";
+            this.Name = "عيادات";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

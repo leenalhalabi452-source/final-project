@@ -954,6 +954,6 @@
         private System.Windows.Forms.Timer timer_hr_animation;
         private System.Windows.Forms.Panel bar1;
         private System.Windows.Forms.Panel bar2;
-        private System.Windows.Forms.Panel bar3;
+        private System.Windows.Forms.Panel bar3;  
     }
 }

@@ -29,12 +29,14 @@
             this.lbl_login_icon_shield_lock = new System.Windows.Forms.Label();
             this.lbl_login_icon_shield_check = new System.Windows.Forms.Label();
             this.lbl_login_icon_user = new System.Windows.Forms.Label();
+            this.btn_login_create_admin = new System.Windows.Forms.Button();
             this.pnl_login_card.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_login_card
             // 
             this.pnl_login_card.BackColor = System.Drawing.Color.White;
+            this.pnl_login_card.Controls.Add(this.btn_login_create_admin);
             this.pnl_login_card.Controls.Add(this.btn_login_login);
             this.pnl_login_card.Controls.Add(this.txt_login_password);
             this.pnl_login_card.Controls.Add(this.lbl_login_password);
@@ -47,7 +49,7 @@
             this.pnl_login_card.Location = new System.Drawing.Point(210, 49);
             this.pnl_login_card.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnl_login_card.Name = "pnl_login_card";
-            this.pnl_login_card.Size = new System.Drawing.Size(255, 358);
+            this.pnl_login_card.Size = new System.Drawing.Size(255, 395);
             this.pnl_login_card.TabIndex = 0;
             // 
             // btn_login_login
@@ -67,6 +69,7 @@
             this.btn_login_login.TabIndex = 9;
             this.btn_login_login.Text = "Log In";
             this.btn_login_login.UseVisualStyleBackColor = false;
+            this.btn_login_login.Click += new System.EventHandler(this.btn_login_login_Click);
             // 
             // txt_login_password
             // 
@@ -224,6 +227,16 @@
             this.lbl_login_icon_user.Text = "👤";
             this.lbl_login_icon_user.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btn_login_create_admin
+            // 
+            this.btn_login_create_admin.Location = new System.Drawing.Point(59, 351);
+            this.btn_login_create_admin.Name = "btn_login_create_admin";
+            this.btn_login_create_admin.Size = new System.Drawing.Size(126, 29);
+            this.btn_login_create_admin.TabIndex = 10;
+            this.btn_login_create_admin.Text = "إنشاء حساب مدير ";
+            this.btn_login_create_admin.UseVisualStyleBackColor = true;
+            this.btn_login_create_admin.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -266,5 +279,6 @@
         private System.Windows.Forms.Label lbl_login_icon_shield_lock;
         private System.Windows.Forms.Label lbl_login_icon_shield_check;
         private System.Windows.Forms.Label lbl_login_icon_user;
+        private System.Windows.Forms.Button btn_login_create_admin;
     }
 }

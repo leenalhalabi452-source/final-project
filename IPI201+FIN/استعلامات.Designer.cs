@@ -103,7 +103,7 @@
             this.pnl_inquiry_header.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_inquiry_header.Location = new System.Drawing.Point(0, 0);
             this.pnl_inquiry_header.Name = "pnl_inquiry_header";
-            this.pnl_inquiry_header.Size = new System.Drawing.Size(1383, 85);
+            this.pnl_inquiry_header.Size = new System.Drawing.Size(1370, 85);
             this.pnl_inquiry_header.TabIndex = 0;
             this.pnl_inquiry_header.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_inquiry_header_Paint);
             // 
@@ -127,7 +127,7 @@
             this.lbl_inquiry_page_title.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_page_title.Location = new System.Drawing.Point(95, 15);
             this.lbl_inquiry_page_title.Name = "lbl_inquiry_page_title";
-            this.lbl_inquiry_page_title.Size = new System.Drawing.Size(224, 37);
+            this.lbl_inquiry_page_title.Size = new System.Drawing.Size(180, 30);
             this.lbl_inquiry_page_title.TabIndex = 1;
             this.lbl_inquiry_page_title.Text = "واجهة الاستعلامات";
             // 
@@ -139,7 +139,7 @@
             this.lbl_inquiry_page_subtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_page_subtitle.Location = new System.Drawing.Point(98, 55);
             this.lbl_inquiry_page_subtitle.Name = "lbl_inquiry_page_subtitle";
-            this.lbl_inquiry_page_subtitle.Size = new System.Drawing.Size(124, 19);
+            this.lbl_inquiry_page_subtitle.Size = new System.Drawing.Size(104, 13);
             this.lbl_inquiry_page_subtitle.TabIndex = 2;
             this.lbl_inquiry_page_subtitle.Text = "Reception & Queries";
             // 
@@ -163,7 +163,7 @@
             this.lbl_inquiry_employee_name.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_employee_name.Location = new System.Drawing.Point(870, 30);
             this.lbl_inquiry_employee_name.Name = "lbl_inquiry_employee_name";
-            this.lbl_inquiry_employee_name.Size = new System.Drawing.Size(121, 25);
+            this.lbl_inquiry_employee_name.Size = new System.Drawing.Size(97, 20);
             this.lbl_inquiry_employee_name.TabIndex = 4;
             this.lbl_inquiry_employee_name.Text = "اسم الموظف:";
             // 
@@ -187,7 +187,7 @@
             this.lbl_inquiry_date.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_date.Location = new System.Drawing.Point(1120, 30);
             this.lbl_inquiry_date.Name = "lbl_inquiry_date";
-            this.lbl_inquiry_date.Size = new System.Drawing.Size(98, 25);
+            this.lbl_inquiry_date.Size = new System.Drawing.Size(93, 20);
             this.lbl_inquiry_date.TabIndex = 6;
             this.lbl_inquiry_date.Text = "2025-09-28";
             // 
@@ -197,7 +197,7 @@
             this.goldLine.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.goldLine.Location = new System.Drawing.Point(0, 83);
             this.goldLine.Name = "goldLine";
-            this.goldLine.Size = new System.Drawing.Size(1383, 2);
+            this.goldLine.Size = new System.Drawing.Size(1370, 2);
             this.goldLine.TabIndex = 7;
             // 
             // pnl_inquiry_sidebar
@@ -210,7 +210,7 @@
             this.pnl_inquiry_sidebar.Controls.Add(this.pnl_inquiry_btn_schedule);
             this.pnl_inquiry_sidebar.Controls.Add(this.lbl_inquiry_sidebar_caduceus);
             this.pnl_inquiry_sidebar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnl_inquiry_sidebar.Location = new System.Drawing.Point(1147, 85);
+            this.pnl_inquiry_sidebar.Location = new System.Drawing.Point(1134, 85);
             this.pnl_inquiry_sidebar.Name = "pnl_inquiry_sidebar";
             this.pnl_inquiry_sidebar.Size = new System.Drawing.Size(236, 656);
             this.pnl_inquiry_sidebar.TabIndex = 1;
@@ -223,7 +223,7 @@
             this.lbl_inquiry_sidebar_title.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_sidebar_title.Location = new System.Drawing.Point(55, 22);
             this.lbl_inquiry_sidebar_title.Name = "lbl_inquiry_sidebar_title";
-            this.lbl_inquiry_sidebar_title.Size = new System.Drawing.Size(83, 28);
+            this.lbl_inquiry_sidebar_title.Size = new System.Drawing.Size(68, 21);
             this.lbl_inquiry_sidebar_title.TabIndex = 1;
             this.lbl_inquiry_sidebar_title.Text = "الإجراءات";
             // 
@@ -271,7 +271,7 @@
             this.lbl_inquiry_btn_file_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(220)))));
             this.lbl_inquiry_btn_file_text.Location = new System.Drawing.Point(61, 22);
             this.lbl_inquiry_btn_file_text.Name = "lbl_inquiry_btn_file_text";
-            this.lbl_inquiry_btn_file_text.Size = new System.Drawing.Size(108, 28);
+            this.lbl_inquiry_btn_file_text.Size = new System.Drawing.Size(86, 21);
             this.lbl_inquiry_btn_file_text.TabIndex = 1;
             this.lbl_inquiry_btn_file_text.Text = "إملاء إضبارة";
             // 
@@ -319,7 +319,7 @@
             this.lbl_inquiry_btn_book_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(230)))), ((int)(((byte)(220)))));
             this.lbl_inquiry_btn_book_text.Location = new System.Drawing.Point(61, 22);
             this.lbl_inquiry_btn_book_text.Name = "lbl_inquiry_btn_book_text";
-            this.lbl_inquiry_btn_book_text.Size = new System.Drawing.Size(94, 28);
+            this.lbl_inquiry_btn_book_text.Size = new System.Drawing.Size(73, 21);
             this.lbl_inquiry_btn_book_text.TabIndex = 1;
             this.lbl_inquiry_btn_book_text.Text = "حجز موعد";
             // 
@@ -367,7 +367,7 @@
             this.lbl_inquiry_btn_schedule_text.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(235)))), ((int)(((byte)(225)))));
             this.lbl_inquiry_btn_schedule_text.Location = new System.Drawing.Point(42, 25);
             this.lbl_inquiry_btn_schedule_text.Name = "lbl_inquiry_btn_schedule_text";
-            this.lbl_inquiry_btn_schedule_text.Size = new System.Drawing.Size(132, 28);
+            this.lbl_inquiry_btn_schedule_text.Size = new System.Drawing.Size(104, 21);
             this.lbl_inquiry_btn_schedule_text.TabIndex = 1;
             this.lbl_inquiry_btn_schedule_text.Text = "جدول العيادات";
             this.lbl_inquiry_btn_schedule_text.Click += new System.EventHandler(this.lbl_inquiry_btn_schedule_text_Click);
@@ -408,7 +408,7 @@
             this.pnl_inquiry_content.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_inquiry_content.Location = new System.Drawing.Point(0, 85);
             this.pnl_inquiry_content.Name = "pnl_inquiry_content";
-            this.pnl_inquiry_content.Size = new System.Drawing.Size(1147, 656);
+            this.pnl_inquiry_content.Size = new System.Drawing.Size(1134, 656);
             this.pnl_inquiry_content.TabIndex = 2;
             // 
             // pnl_inquiry_content_header
@@ -442,7 +442,7 @@
             this.lbl_inquiry_content_title.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_content_title.Location = new System.Drawing.Point(780, 12);
             this.lbl_inquiry_content_title.Name = "lbl_inquiry_content_title";
-            this.lbl_inquiry_content_title.Size = new System.Drawing.Size(185, 32);
+            this.lbl_inquiry_content_title.Size = new System.Drawing.Size(147, 25);
             this.lbl_inquiry_content_title.TabIndex = 1;
             this.lbl_inquiry_content_title.Text = "لوحة الاستعلامات";
             // 
@@ -454,7 +454,7 @@
             this.lbl_inquiry_content_subtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_content_subtitle.Location = new System.Drawing.Point(710, 45);
             this.lbl_inquiry_content_subtitle.Name = "lbl_inquiry_content_subtitle";
-            this.lbl_inquiry_content_subtitle.Size = new System.Drawing.Size(249, 20);
+            this.lbl_inquiry_content_subtitle.Size = new System.Drawing.Size(192, 15);
             this.lbl_inquiry_content_subtitle.TabIndex = 2;
             this.lbl_inquiry_content_subtitle.Text = "نظرة عامة على الاستعلامات والمواعيد";
             // 
@@ -492,7 +492,7 @@
             this.lbl_inquiry_card_1_title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(200)))), ((int)(((byte)(160)))));
             this.lbl_inquiry_card_1_title.Location = new System.Drawing.Point(160, 28);
             this.lbl_inquiry_card_1_title.Name = "lbl_inquiry_card_1_title";
-            this.lbl_inquiry_card_1_title.Size = new System.Drawing.Size(80, 28);
+            this.lbl_inquiry_card_1_title.Size = new System.Drawing.Size(62, 21);
             this.lbl_inquiry_card_1_title.TabIndex = 1;
             this.lbl_inquiry_card_1_title.Text = "المواعيد";
             // 
@@ -504,7 +504,7 @@
             this.lbl_inquiry_card_1_value.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_card_1_value.Location = new System.Drawing.Point(160, 70);
             this.lbl_inquiry_card_1_value.Name = "lbl_inquiry_card_1_value";
-            this.lbl_inquiry_card_1_value.Size = new System.Drawing.Size(69, 93);
+            this.lbl_inquiry_card_1_value.Size = new System.Drawing.Size(64, 74);
             this.lbl_inquiry_card_1_value.TabIndex = 2;
             this.lbl_inquiry_card_1_value.Text = "0";
             // 
@@ -524,7 +524,7 @@
             this.lbl_inquiry_card_1_note.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_card_1_note.Location = new System.Drawing.Point(20, 195);
             this.lbl_inquiry_card_1_note.Name = "lbl_inquiry_card_1_note";
-            this.lbl_inquiry_card_1_note.Size = new System.Drawing.Size(87, 20);
+            this.lbl_inquiry_card_1_note.Size = new System.Drawing.Size(67, 15);
             this.lbl_inquiry_card_1_note.TabIndex = 4;
             this.lbl_inquiry_card_1_note.Text = "مواعيد اليوم";
             // 
@@ -571,7 +571,7 @@
             this.lbl_inquiry_card_2_title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(200)))), ((int)(((byte)(200)))));
             this.lbl_inquiry_card_2_title.Location = new System.Drawing.Point(130, 28);
             this.lbl_inquiry_card_2_title.Name = "lbl_inquiry_card_2_title";
-            this.lbl_inquiry_card_2_title.Size = new System.Drawing.Size(112, 28);
+            this.lbl_inquiry_card_2_title.Size = new System.Drawing.Size(87, 21);
             this.lbl_inquiry_card_2_title.TabIndex = 1;
             this.lbl_inquiry_card_2_title.Text = "الاستعلامات";
             // 
@@ -583,7 +583,7 @@
             this.lbl_inquiry_card_2_value.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_card_2_value.Location = new System.Drawing.Point(160, 70);
             this.lbl_inquiry_card_2_value.Name = "lbl_inquiry_card_2_value";
-            this.lbl_inquiry_card_2_value.Size = new System.Drawing.Size(69, 93);
+            this.lbl_inquiry_card_2_value.Size = new System.Drawing.Size(64, 74);
             this.lbl_inquiry_card_2_value.TabIndex = 2;
             this.lbl_inquiry_card_2_value.Text = "0";
             // 
@@ -603,7 +603,7 @@
             this.lbl_inquiry_card_2_note.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_card_2_note.Location = new System.Drawing.Point(20, 195);
             this.lbl_inquiry_card_2_note.Name = "lbl_inquiry_card_2_note";
-            this.lbl_inquiry_card_2_note.Size = new System.Drawing.Size(118, 20);
+            this.lbl_inquiry_card_2_note.Size = new System.Drawing.Size(91, 15);
             this.lbl_inquiry_card_2_note.TabIndex = 4;
             this.lbl_inquiry_card_2_note.Text = "استعلامات جديدة";
             // 
@@ -650,7 +650,7 @@
             this.lbl_inquiry_card_3_title.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(210)))), ((int)(((byte)(140)))));
             this.lbl_inquiry_card_3_title.Location = new System.Drawing.Point(160, 28);
             this.lbl_inquiry_card_3_title.Name = "lbl_inquiry_card_3_title";
-            this.lbl_inquiry_card_3_title.Size = new System.Drawing.Size(73, 28);
+            this.lbl_inquiry_card_3_title.Size = new System.Drawing.Size(60, 21);
             this.lbl_inquiry_card_3_title.TabIndex = 1;
             this.lbl_inquiry_card_3_title.Text = "المرضى";
             // 
@@ -662,7 +662,7 @@
             this.lbl_inquiry_card_3_value.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_card_3_value.Location = new System.Drawing.Point(160, 70);
             this.lbl_inquiry_card_3_value.Name = "lbl_inquiry_card_3_value";
-            this.lbl_inquiry_card_3_value.Size = new System.Drawing.Size(69, 93);
+            this.lbl_inquiry_card_3_value.Size = new System.Drawing.Size(64, 74);
             this.lbl_inquiry_card_3_value.TabIndex = 2;
             this.lbl_inquiry_card_3_value.Text = "0";
             // 
@@ -682,7 +682,7 @@
             this.lbl_inquiry_card_3_note.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_card_3_note.Location = new System.Drawing.Point(20, 195);
             this.lbl_inquiry_card_3_note.Name = "lbl_inquiry_card_3_note";
-            this.lbl_inquiry_card_3_note.Size = new System.Drawing.Size(140, 20);
+            this.lbl_inquiry_card_3_note.Size = new System.Drawing.Size(109, 15);
             this.lbl_inquiry_card_3_note.TabIndex = 4;
             this.lbl_inquiry_card_3_note.Text = "مرضى مسجلون اليوم";
             // 
@@ -730,7 +730,7 @@
             this.lbl_inquiry_big_title.ForeColor = System.Drawing.Color.White;
             this.lbl_inquiry_big_title.Location = new System.Drawing.Point(650, 16);
             this.lbl_inquiry_big_title.Name = "lbl_inquiry_big_title";
-            this.lbl_inquiry_big_title.Size = new System.Drawing.Size(293, 46);
+            this.lbl_inquiry_big_title.Size = new System.Drawing.Size(236, 37);
             this.lbl_inquiry_big_title.TabIndex = 1;
             this.lbl_inquiry_big_title.Text = "ملخص الاستعلامات";
             // 
@@ -742,7 +742,7 @@
             this.lbl_inquiry_big_subtitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(180)))), ((int)(((byte)(155)))));
             this.lbl_inquiry_big_subtitle.Location = new System.Drawing.Point(655, 71);
             this.lbl_inquiry_big_subtitle.Name = "lbl_inquiry_big_subtitle";
-            this.lbl_inquiry_big_subtitle.Size = new System.Drawing.Size(333, 25);
+            this.lbl_inquiry_big_subtitle.Size = new System.Drawing.Size(270, 20);
             this.lbl_inquiry_big_subtitle.TabIndex = 2;
             this.lbl_inquiry_big_subtitle.Text = "نظرة تفصيلية على المواعيد والاستعلامات";
             // 
@@ -754,7 +754,7 @@
             this.lbl_inquiry_big_stat1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(210)))));
             this.lbl_inquiry_big_stat1.Location = new System.Drawing.Point(650, 131);
             this.lbl_inquiry_big_stat1.Name = "lbl_inquiry_big_stat1";
-            this.lbl_inquiry_big_stat1.Size = new System.Drawing.Size(248, 30);
+            this.lbl_inquiry_big_stat1.Size = new System.Drawing.Size(212, 25);
             this.lbl_inquiry_big_stat1.TabIndex = 3;
             this.lbl_inquiry_big_stat1.Text = "◆   إجمالي الاستعلامات: 0";
             // 
@@ -766,7 +766,7 @@
             this.lbl_inquiry_big_stat2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(210)))));
             this.lbl_inquiry_big_stat2.Location = new System.Drawing.Point(650, 181);
             this.lbl_inquiry_big_stat2.Name = "lbl_inquiry_big_stat2";
-            this.lbl_inquiry_big_stat2.Size = new System.Drawing.Size(194, 30);
+            this.lbl_inquiry_big_stat2.Size = new System.Drawing.Size(165, 25);
             this.lbl_inquiry_big_stat2.TabIndex = 4;
             this.lbl_inquiry_big_stat2.Text = "◆   مواعيد مؤكدة: 0";
             // 
@@ -778,7 +778,7 @@
             this.lbl_inquiry_big_stat3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(220)))), ((int)(((byte)(210)))));
             this.lbl_inquiry_big_stat3.Location = new System.Drawing.Point(650, 231);
             this.lbl_inquiry_big_stat3.Name = "lbl_inquiry_big_stat3";
-            this.lbl_inquiry_big_stat3.Size = new System.Drawing.Size(166, 30);
+            this.lbl_inquiry_big_stat3.Size = new System.Drawing.Size(142, 25);
             this.lbl_inquiry_big_stat3.TabIndex = 5;
             this.lbl_inquiry_big_stat3.Text = "◆   مرضى جدد: 0";
             // 
@@ -797,10 +797,10 @@
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.ClientSize = new System.Drawing.Size(1383, 741);
+            this.ClientSize = new System.Drawing.Size(1370, 741);
             this.Controls.Add(this.pnl_inquiry_content);
             this.Controls.Add(this.pnl_inquiry_sidebar);
             this.Controls.Add(this.pnl_inquiry_header);

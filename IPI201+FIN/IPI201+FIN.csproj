@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Create_Procedures.cs" />
+    <Compile Include="Create_Tables.cs" />
+    <Compile Include="FirstAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstAdminForm.Designer.cs">
+      <DependentUpon>FirstAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetData.cs" />
+    <Compile Include="Insert.cs" />
+    <Compile Include="LoginInitializer.cs" />
+    <Compile Include="model.cs" />
+    <Compile Include="SQL_DO_IT.cs" />
     <Compile Include="تسجيل الدخول.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +122,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FirstAdminForm.resx">
+      <DependentUpon>FirstAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="تسجيل الدخول.resx">
       <DependentUpon>تسجيل الدخول.cs</DependentUpon>
     </EmbeddedResource>

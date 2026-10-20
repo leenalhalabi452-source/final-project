@@ -62,5 +62,10 @@ namespace IPI201_FIN
         {
 
         }
+
+        private void pnl_xray_content_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

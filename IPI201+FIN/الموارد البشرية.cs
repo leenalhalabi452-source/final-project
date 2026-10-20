@@ -36,5 +36,15 @@ namespace IPI201_FIN
         {
 
         }
+
+        private void pnl_hr_content_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnl_hr_content_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

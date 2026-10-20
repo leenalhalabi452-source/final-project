@@ -51,5 +51,10 @@ namespace IPI201_FIN
         {
             
         }
+
+        private void pnl_clinic_sidebar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
